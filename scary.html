@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARNING</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+        body {
+            background-color: #000;
+            color: #ff0000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Creepster', cursive;
+            font-size: 4rem;
+            margin-top: 20px;
+            text-shadow: 0 0 10px #ff0000, 0 0 20px #8b0000;
+            animation: flicker 0.2s infinite alternate;
+        }
+
+        img {
+            max-width: 80%;
+            max-height: 60vh;
+            border: 5px solid #ff0000;
+            box-shadow: 0 0 50px rgba(255, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        @keyframes flicker {
+            0% { opacity: 1; }
+            100% { opacity: 0.8; }
+        }
+
+        /* Adds a red vignette effect to the screen */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            box-shadow: inset 0 0 150px rgba(255, 0, 0, 0.4);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="scary-image.png" alt="Scary Hacker Octopus">
+    <h1>YOUR CREDENTIAL IS WITH ME</h1>
+
+</body>
+</html>
