@@ -39,14 +39,8 @@ The project uses static HTML pages to simulate fake login workflows and highligh
 ### 1. Clone the Repository
 
 ```bash
-git clone -b phishing-simulation https://github.com/prithakdas/Cyber-Security.git
+git clone https://github.com/prithakdas/phishing-simulation-awareness.git
 cd Cyber-Security
-```
-
-If you have already cloned the full repository:
-
-```bash
-git checkout phishing-simulation
 ```
 
 ---
@@ -72,7 +66,7 @@ This will open the simulated phishing landing page in your default browser.
 ## Project Structure
 
 ```text
-phishing-simulation/
+phishing-simulation-awareness/
 │
 ├── index.html
 ├── forget-password.html
