@@ -40,7 +40,7 @@ The project uses static HTML pages to simulate fake login workflows and highligh
 
 ```bash
 git clone https://github.com/prithakdas/phishing-simulation-awareness.git
-cd Cyber-Security
+cd phishing-simulation-awareness
 ```
 
 ---
